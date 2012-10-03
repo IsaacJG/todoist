@@ -196,8 +196,3 @@ class TodoistSession:
     def custom_request(self, request_str):
         request = requests.get(request_str)
         return request.json
-        
-
-
-if __name__ == '__main__':
-    session = TodoistSession('waterwolf2.0@gmail.com', '@n3vErf0rgeT*')
